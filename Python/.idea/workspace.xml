@@ -2,30 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7b088c-deb2-4b7e-8d1f-c31f74fc8962" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/build/classes/.netbeans_automatic_build" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/build/classes/.netbeans_update_resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/build/classes/Ciclos01/Ciclos01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/build/classes/Ciclos01/Ejercicio01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/manifest.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/nbproject/build-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/nbproject/genfiles.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/nbproject/private/private.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/nbproject/private/private.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/src/Ciclos01/Ciclos01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos01/src/Ciclos01/Ejercicio01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos02/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos02/manifest.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos02/nbproject/build-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos02/nbproject/genfiles.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos02/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos02/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos02/src/Ciclos02/Ciclos02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Leccion2/EjercicioCiclos02/src/Ciclos02/Ejercicio02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Leccion2/CicloWhile/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Leccion2/CicloWhile/nbproject/private/private.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,70 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/EjercicioRange/Ejercicio1.py" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.grazie" />
   </component>
-  <component name="RunManager" selected="Python.Ejercicio03">
-    <configuration name="Ejercicio01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion4/Ejercicio01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Ejercicio02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion4/Ejercicio02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Ejercicio03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion4/Ejercicio03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="Ejercicio1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,7 +56,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="EjercicioColecciones1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Ejercicio5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,32 +64,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion4/EjercicioColecciones1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="EjercicioColecciones3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion4/EjercicioColecciones3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion2/Ejercicio5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,11 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Ejercicio03" />
-        <item itemvalue="Python.Ejercicio02" />
-        <item itemvalue="Python.Ejercicio01" />
-        <item itemvalue="Python.EjercicioColecciones3" />
-        <item itemvalue="Python.EjercicioColecciones1" />
+        <item itemvalue="Python.Ejercicio5" />
       </list>
     </recent_temporary>
   </component>
