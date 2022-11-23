@@ -64,5 +64,6 @@
  //Operador terniario
  let resultado3 = edad2 >= 18 ? "Usted puede votar" : "Usted es muy joven para votar";
  console.log(resultado3)
+ 
 
 
