@@ -115,101 +115,97 @@ console.log(fechaNacimiento);
 //fechaNacimiento = 2003;
 //console.log(fechaNacimiento); //solo se ejecuta el console anterior
 
--
 //Evitar repetir tu codigo
-//Dry don't repeat yourself
-
-let days = 5;
+//dry don't repeat yourself
+//
+let days = 3
 switch (days) {
     case 1:
-        console.log("Hoy es Lunes");
-        break;
+        console.log('Today is Monday');
+         break;
     case 2:
-        console.log("Hoy es Martes");
+        console.log('Today is Tuesday');
         break;
     case 3:
-        console.log("Hoy es Miercoles");
+        console.log('Today is Wednesday');
         break;
     case 4:
-        console.log("Hoy es Jueves");
+        console.log('Today is Thursday');
         break;
     case 5:
-        console.log("Hoy es Viernes");
+        console.log('Today is Friday');
         break;
     case 6:
-        console.log("Hoy es Sabado");
+        console.log('Today is Saturday');
         break;
     case 7:
-        console.log("Hoy es Domingo");
+        console.log('Today is Sunday')
         break;
     default:
-        console.log("Error en el ingreso del dia de la semana")
+        console.log("Error en el ingreso del día de la semana.");
         break;
 }
 
-//Esta es la funcion mejorada
-
-let days2 = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"]
+//Esta es una versión mejorada
+//Creada con arrays o arreglos
+let days2 = ['Monday', 'Tuesday', 'Wednesday','Thursday', 'Friday','Saturday','Sunday'];
+//Creamos una función getDay con un parametro de tipo entero.  con una estructura if
 function getDay(n){
     if(n < 1 || n > 7){
-        throw new Error("out of range")
+        throw new Error('out of range');
     }
-    return days2[n-1];
+    return days2[n+1];
 }
-console.log(getDay(3));
+console.log(getDay(5));
 
-//Hacer un ejercicio similar al que esta hecho, pero ahora con los
-//meses del año, debes hacerlo con la estructura switch y luego con
-//la funcion en la opcion mejorada
-
-let months = 5;
-switch (months) {
+let month = 2
+switch (month) {
     case 1:
-        console.log("Hoy es Enero");
+        console.log('January');
         break;
     case 2:
-        console.log("Hoy es Febrero");
+        console.log('February');
         break;
     case 3:
-        console.log("Hoy es Marzo");
+         console.log('March');
         break;
     case 4:
-        console.log("Hoy es Abril");
+        console.log('April');
         break;
     case 5:
-        console.log("Hoy es Mayo");
+        console.log('May');
         break;
     case 6:
-        console.log("Hoy es Junio");
+        console.log('June');
         break;
     case 7:
-        console.log("Hoy es Julio");
+        console.log('is July');
         break;
     case 8:
-        console.log("Hoy es Agosto");
+        console.log('is August');
         break;
     case 9:
-        console.log("Hoy es Septiembre");
+        console.log('is September');
         break;
     case 10:
-        console.log("Hoy es Octubre");
+        console.log('is October');
         break;
     case 11:
-        console.log("Hoy es Noviembre");
+        console.log('is November');
         break;
     case 12:
-        console.log("Hoy es Diciembre");
+        console.log('is December');
         break;
     default:
-        console.log("Error en el ingreso del Mes")
+        console.log('Erro en el ingreso del mes del año');
         break;
-    }
-
-    let months2 = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
-function getMonths(n){
-    if(n < 1 || n > 12){
-        throw new Error("out of range")
-    }
-    return months2[n-1];
 }
-console.log(getMonths(10));
+//Operacion mejorada
+let month2 = ['The month is January', 'The month is February', 'March','April','May','June','July','August','September','October','November','December'];
+function getMonth(n){
+    if(n < 1 || n > 12){
+        throw new Error('out of range');
+    }
+    return month2[n-1];
+}
+console.log(getMonth(2));
