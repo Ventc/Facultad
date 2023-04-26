@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e35b9828-91b3-4014-95db-6d10bc7e2e57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/catalogo_peliculas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dominio/Pelicula.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dominio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/peliculas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio/catalogo_peliculas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_catalogo_peliculas.py" afterDir="false" />
-    </list>
+    <list default="true" id="e35b9828-91b3-4014-95db-6d10bc7e2e57" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
