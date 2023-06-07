@@ -1,9 +1,24 @@
 //let persona3 = new Persona("Renzo", "Gira"); esto no se debe hacer: Persona is not defined
 
 class Persona{ //Clase padre
+
+    static contadorObjetosPersona = 0; //Atributo estatico
+    //email = "Valor default email"; //Atributo no estatico
+
+    static get MAX_OBJ(){ //Este metodo simula una constante
+        return 5;
+    }
+
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
+        if(Persona.contadorObjetosPersona < Persona.MAX_OBJ){
+                    this.idPersona = ++Persona.contadorObjetosPersona;
+        }
+        else{
+            console.log("Se ha superado el maximo de objetos permitidos");
+        }
+        //console.log("Se incrementa el contador: "+Persona.contadorObjetosPersona);
     }
 
     get nombre(){
@@ -23,13 +38,21 @@ class Persona{ //Clase padre
     }
 
     nombreCompleto(){
-        return this._nombre+" "+this._apellido;
+        return this.idPersona+" "+this._nombre+" "+this._apellido;
     }
     //Sobreescribiendo el metodo de la clase padre (Object)
     toString(){ //Regresa un String
         //Se aplica el polimorfismo que significa = multiples formas en tiempo de ejecucion
         //El metodo que se ejecuta depende si es una referencia de tipo padre o hija
         return this.nombreCompleto();
+    }
+
+    static saludar(){
+        console.log("Saludos desde este metodo static");
+    }
+
+    static saludar2(persona){
+        console.log(persona._nombre+" "+persona._apellido);
     }
 }
 
@@ -78,3 +101,34 @@ console.log(empleado1.nombreCompleto());
 console.log(empleado1.toString());
 console.log(persona1.toString());
 
+//persona1.saludar(); no se utiliza desde el objeto
+Persona.saludar();
+Persona.saludar2(persona1);
+
+Empleado.saludar();
+Empleado.saludar2(empleado1);
+
+//console.log(persona1.contadorObjetosPersona);
+console.log(Persona.contadorObjetosPersona);
+console.log(Empleado.contadorObjetosPersona);
+
+console.log(persona1.email);
+console.log(empleado1.email);
+//console.log(Persona.email); No puede acceder desde la clase
+console.log(persona1.toString());
+console.log(persona2.toString());
+console.log(empleado1.toString());
+console.log(Persona.contadorObjetosPersona);
+
+let persona3 = new Persona("Renzo", "Gira");
+console.log(persona3.toString());
+console.log(Persona.contadorObjetosPersona);
+
+console.log(Persona.MAX_OBJ);
+//Persona.MAX_OBJ = 10; no se puede modificar, ni alterar
+console.log(Persona.MAX_OBJ);
+
+let persona4 = new Persona("Franco", "Diaz");
+console.log(persona4.toString());
+let persona5 = new Persona("Liliana", "Paz");
+console.log(persona5.toString());
