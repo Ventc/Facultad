@@ -133,16 +133,38 @@ public class EstudianteDAO {
     }//Fin metodo modificarEstudiante
 
 
+    public boolean eliminarEstudiante(Estudiante estudiante){
+        PreparedStatement ps;
+        Connection con = getConnection();
+        String sql = "DELETE FROM estudiantes2022 WHERE idestudiantes2022=?";
+        try {
+            ps = con.prepareStatement(sql);
+            ps.setInt(1, estudiante.getIdEstudiante());
+            ps.execute();
+            return true;
+        } catch (Exception e){
+            System.out.println("Error al eliminar estudiante: "+e.getMessage());
+        }
+        finally {
+            try {
+                con.close();
+            } catch (Exception e){
+                System.out.println("Error al cerrar la conexion: "+e.getMessage());
+            }
+        }
+        return false;
+    }
+
 
     public static void main(String[] args) {
         var estudianteDao = new EstudianteDAO();
         //Modificar estudiante
-        var estudianteModificado = new Estudiante(1, "Juan Carlos", "Juarez", "950129034", "juen@gmail.com");
-        var modificado = estudianteDao.modificarEstudiante(estudianteModificado);
-        if(modificado)
-            System.out.println("Estudiante modificado: "+estudianteModificado);
-        else
-            System.out.println("No se modifico el estudiante: "+estudianteModificado);
+        //var estudianteModificado = new Estudiante(1, "Juan Carlos", "Juarez", "950129034", "juen@gmail.com");
+        //var modificado = estudianteDao.modificarEstudiante(estudianteModificado);
+        //if(modificado)
+        //    System.out.println("Estudiante modificado: "+estudianteModificado);
+        //else
+        //    System.out.println("No se modifico el estudiante: "+estudianteModificado);
 
         //Agregar estudiante
         //Agregarvar nuevoEstudiante = new Estudiante("Carlos", "Lara", "5918239890", "carlosl@gmail.com");
@@ -151,6 +173,15 @@ public class EstudianteDAO {
         //Agregar    System.out.println("Estudiante agregado: "+nuevoEstudiante);
         //Agregarelse
         //Agregar    System.out.println("No se ha agregado estudiante: "+nuevoEstudiante);
+
+
+        //Eliminar estudiante con id 3
+        //var estudianteEliminar = new Estudiante(3);
+        //var eliminado = estudianteDao.eliminarEstudiante(estudianteEliminar);
+        //if(eliminado)
+        //    System.out.println("Estudiante eliminado: "+estudianteEliminar);
+        //else
+        //    System.out.println("No se elimino estudiante: "+estudianteEliminar);
 
 
         //Listar los estudiantes
