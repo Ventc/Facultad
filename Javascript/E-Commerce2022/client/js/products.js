@@ -31,14 +31,14 @@ const productos = [
         id: 5,
         productName: "Enlatados",
         price: 500,
-        quanty: 4,
+        quanty: 1,
         img: "/client/media/enlatados.jpg"
     },
     {
         id: 6,
         productName: "Productos Variados",
         price: 1000,
-        quanty: 10,
+        quanty: 1,
         img: "/client/media/productos variados.jpg"
     }
 ]
