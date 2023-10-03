@@ -3,16 +3,19 @@ import morgan from "morgan";
 import tareasRoutes from "./router/tareas.routes.js"
 import authRoutes from "./router/auth.routes.js"
 
+
 const app = express();
-//Middlewares
+//middleware
 app.use(morgan("dev"));
 app.use(express.json());
-app.use(express.urlencode({ extended: false}));
+app.use(express.urlencoded({ extended: false}));
 
-app.get("/", (req, res) => res.json({message: "Bienvenidos ami proyecto" }));
-app.use("/api", tareasRoutes);
-app.use("/api", authRoutes);
 
+app.get("/", (req, res) => res.json({ message: "Bienvenidos a mi proyecto"}));
+app.use('/api',tareasRoutes);
+app.use('/api',authRoutes)
+
+//manejando errores
 app.use((err, req, res, next) => {
     res.status(500).json({
         status: "error",
