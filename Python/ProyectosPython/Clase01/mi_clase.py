@@ -1,21 +1,23 @@
+
+
 class MiClase:
     '''
-    Este es un ejemplo de la documentacion
+    Este es un ejemplo de la documentación
     de esta clase.
-    es solo para saber que aqui esta MiClase
+    es solo para saber que aquí esta mi clase
     '''
     def __init__(self):
         '''
-        Aqui esta el metodo dunder init
-        Este metodo es el de inicio
+        Aqui esta el método dunder init
+        Este método es el de inicio
         para esta clase
         '''
 
     def mi_metodo(self, param1, param2):
         '''
-        Este es el metodo creado por mi que recibe parametros
-        Detecto los parametros automaticamente
-        :param param1: Este es el parametro numero 1
-        :param param2: Este es el parametro numero 2
+        Este es el método creado por mí
+        Detectó los argumentos automaticamente
+        :param param1: Este es el parámetro número 1
+        :param param2: Este es el parámetro número 2
         :return: Este es el valor de retorno
         '''
